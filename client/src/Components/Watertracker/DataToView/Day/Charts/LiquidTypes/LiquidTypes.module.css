@@ -1,0 +1,40 @@
+.container-pie-chart {
+  min-height: 20.5rem;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 370;
+  text-align: center;
+}
+
+.pie-chart {
+  height: 17rem;
+  width: 17rem;
+}
+
+.additional-height {
+  height: 16rem;
+}
+
+/** 37.48em = 599px */
+@media (max-width: 37.48em) {
+  .container {
+    /* 636px=39.75rem */
+    height: 39.75rem;
+  }
+  .title {
+    font-size: 1.125rem;
+    margin-top: 1rem;
+  }
+}
+
+/**
+* 74.96em = 1199.36px
+*/
+@media (max-width: 74.96em) {
+  .title {
+    margin-top: 0.7rem;
+  }
+}
